@@ -30,8 +30,8 @@ displayed with the following information</p>
   </tr>
   <tr>
     <td>1</td>
-    <td>movie detail  <a href="ManageOrder.jsp"><button class="btn btn-outline-info btn-sm">View</button></a></td>
-    <td>date</td>
+    <td><ul><li>Movie Name: Tangled</li><li>Ticket Quantity: 1</li><li>Total Price: $4.99</li><li>Theatre Name : Lincoln Marcus Theatre</li><li>Theatre Number: 12<li>Showtime: 1500 </li><li>Date: 21 March 2015 </li></ul> <a href="ManageOrder.jsp"><button class="btn btn-outline-info btn-sm">View</button></a></td>
+    <td>21 March 2015</td>
   </tr>
   
   <tr>

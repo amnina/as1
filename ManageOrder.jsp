@@ -23,8 +23,8 @@
   </tr>
   <tr>
     <td>1</td>
-    <td><ul><li>Movie Name:</li><li>Ticket Quantity:</li><li>Total Price:</li><li>Theatre Name and Number:</li><li>Showtime and Date:</li></ul> <a href="MovieDetailsAndSelection.jsp"><button class="btn btn-outline-info btn-sm">View</button></a></td>
-    <td>date</td>
+    <td><ul><li>Movie Name: Tangled</li><li>Ticket Quantity: 1</li><li>Total Price: $4.99</li><li>Theatre Name : Lincoln Marcus Theatre</li><li>Theatre Number: 12<li>Showtime: 1500 </li><li>Date: 21 March 2015 </li></ul> <a href="MovieDetailsAndSelection.jsp"><button class="btn btn-outline-info btn-sm">View</button></a></td>
+    <td>date: 21 March 2015</td>
     <td><a href="CancelOrder.jsp"><button class="btn btn-outline-danger btn-sm">Cancel Order</button></a></td>
  
     
