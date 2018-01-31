@@ -33,14 +33,12 @@ displayed with the following information</p>
     <td>movie detail  <a href="ManageOrder.jsp"><button class="btn btn-outline-info btn-sm">View</button></a></td>
     <td>date</td>
   </tr>
-  <tr>
-    <td>2</td>
-    <td>movie detail  <a href="ManageOrder.jsp"><button class="btn btn-outline-info btn-sm">View</button></a></td>
-    <td>date</td>
-  </tr>
+  
   <tr>
   <td>Order Total</td>
-  <td>2</td>
+  <td>1</td>
+  <td></td>
+  
   </tr>
 </table> 
 

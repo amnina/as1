@@ -26,16 +26,14 @@
     <td><ul><li>Movie Name:</li><li>Ticket Quantity:</li><li>Total Price:</li><li>Theatre Name and Number:</li><li>Showtime and Date:</li></ul> <a href="MovieDetailsAndSelection.jsp"><button class="btn btn-outline-info btn-sm">View</button></a></td>
     <td>date</td>
     <td><a href="CancelOrder.jsp"><button class="btn btn-outline-danger btn-sm">Cancel Order</button></a></td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td><ul><li>Movie Name:</li><li>Ticket Quantity:</li><li>Total Price:</li><li>Theatre Name and Number:</li><li>Showtime and Date:</li></ul> <a href="MovieDetailsAndSelection.jsp"><button class="btn btn-outline-info btn-sm">View</button></a></td>
-    <td>date</td>
-    <td><a href="CancelOrder.jsp"><button class="btn btn-outline-danger btn-sm">Cancel Order</button></a></td>
+ 
+    
   </tr>
   <tr>
   <td>Order Total</td>
-  <td>2</td>
+  <td>1</td>
+  <td></td>
+  <td></td>
   </tr>
 </table> 
 </div>
