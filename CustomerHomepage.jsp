@@ -31,17 +31,15 @@
 		<form name="SR" action=MovieSearchResults.jsp  method="post">
 			<input type=text name=Res>
 			
-			<div class="btn-group">
-  			<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    		Theatre Locations
-  			</button>
-  			<div class="dropdown-menu">
-		    <a class="dropdown-item" href="#">Lincoln</a>
-		    <a class="dropdown-item" href="#">Omaha</a>
-		    <a class="dropdown-item" href="#">Harrison</a>
-		    	<div class="dropdown-divider"></div>
-		    <a class="dropdown-item" href="#">Oglala</a>
-			  	</div>
+
+                        <div class="form-group">
+							  <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+							    <option selected>Theatre location</option>
+							    <option value="1">Lincoln</option>
+							    <option value="2">Omaha</option>
+							    <option value="3">Harrison</option>
+							  </select>
+                        </div>
 			</div> 
 			<button type="submit" class="btn btn-primary">Search</button>
 			<br>  		

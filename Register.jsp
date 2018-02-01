@@ -8,8 +8,9 @@
 		
 		<script>
 			function validateForm() {
-			    var x = document.forms["userForm"]["userName"].value;
-			    var y = document.forms["userForm"]["password"].value;
+			    var x = document.forms["userForm2"]["userName"].value;
+			    var y = document.forms["userForm2"]["password"].value;
+			    var z = document.forms["userForm2"]["cpassword"].value;
 			    if (x == "") {
 			        alert("Username must be filled out");
 			        return false;
@@ -18,6 +19,16 @@
 			    if (y == "") {
 			        alert("Password must be filled out");
 			        return false;
+			    }
+			    
+			    if (z == "") {
+			        alert("Please confirm your password");
+			        return false;
+			    }
+			    
+			    if (z!=y) {
+			    	alert("Password do not match!");
+			    	return false;
 			    }
 			}
 	   </script>
@@ -40,17 +51,20 @@
 	
 <center>	
 		
-		<form name="userForm" action	=Register 
+		<form name="userForm2" action="Register" 
 		      onsubmit="return validateForm()" method="post">
 		
   <div class="col-lg-3">
-    <input type="text" name= username class="form-control" placeholder="New Username">
+    <input type="text" name= userName class="form-control" placeholder="New Username">
   </div> 
   <div class="col-lg-3">
-    <input type="text" name=password class="form-control" placeholder="New Password">
+    <input type="password" name=password class="form-control" placeholder="New Password">
+  </div>
+    <div class="col-lg-3">
+    <input type="password" name="cpassword" class="form-control" placeholder="Confim Password">
   </div>
   <br>
-<button type="submit" class="btn btn-primary">Login</button>
+<button type="submit" class="btn btn-primary">Register</button>
 					
 		</form>
 </center>
