@@ -29,9 +29,9 @@
 	<h1>Welcome to Marcus Theatre</h1>
 	
 		<form name="SR" action=MovieSearchResults.jsp  method="post">
-			<input type=text name=Res>
-			
-
+			<div class="form-row align-items-center">
+					<div class="col-lg-3">
+			<input type=text name=Res placeholder="Search Moives Here" class=form-control id="inlineFormInput"></div>
                         <div class="form-group">
 							  <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
 							    <option selected>Theatre location</option>
