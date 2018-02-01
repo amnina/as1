@@ -45,7 +45,7 @@ displayed with the following information</p>
 </div>
 <a href="CustomerHomepage.jsp"><button class="btn btn-primary">Customer Homepage</button></a>
 <a href="ManageOrder.jsp"><button class="btn btn-primary">Manage Order</button></a>
-<a href="Welcome.jsp"><button class="btn btn-danger">Logout</button></a>
+<a href="Login.jsp"><button class="btn btn-danger">Logout</button></a>
 
 
 

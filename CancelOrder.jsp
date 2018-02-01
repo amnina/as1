@@ -23,7 +23,7 @@ entire order.</p>
   </tr>
   <tr>
     <td>1</td>
-    <td><ul><li>Movie Name: Tangled</li><li>Ticket Quantity: 1</li><li>Total Price: $4.99</li><li>Theatre Name : Lincoln Marcus Theatre</li><li>Theatre Number: 12<li>Showtime: 1500 </li><li>Date: 21 March 2015 </li></ul> <a href="ManageOrder.jsp"><button class="btn btn-outline-info btn-sm">View</button></a></td>
+    <td><ul><li>Movie Name: Tangled</li><li>Ticket Quantity: 1</li><li>Total Price: $4.99</li><li>Theatre Name : Lincoln Marcus Theatre</li><li>Theatre Number: 12<li>Showtime: 1500 </li><li>Date: 21 March 2015 </li></ul> <a href="ViewOrder.jsp"><button class="btn btn-outline-info btn-sm">View Details</button></a></td>
     <td>date: 21 March 2015</td>
     <td><a href="CancellationConfirmation.jsp"><button class="btn btn-outline-danger btn-sm">Confirm Cancellation</button></a> <br><br> <a href="CustomerHomepage.jsp"><button class="btn btn-outline-success btn-sm">Discard Cancellation</button></a></td>
     
@@ -40,7 +40,7 @@ entire order.</p>
 <a href="ManageOrder.jsp"><button class="btn btn-primary">Manage Order</button></a>
 
 <a href="CustomerHomepage.jsp"><button class="btn btn-primary">Customer Homepage</button></a>
-<a href="Welcome.jsp"><button class="btn btn-danger">Logout</button></a>
+<a href="Login.jsp"><button class="btn btn-danger">Logout</button></a>
 </div>
 
 

@@ -18,7 +18,7 @@
 <div class="container">
 <a href="CustomerHomepage.jsp"><button class="btn btn-primary">Home</button></a>
 <a href="ViewOrder.jsp"><button class="btn btn-primary">View</button></a>
-<a href="Welcome.jsp"> <button class="btn btn-danger">Logout</button></a>
+<a href="Login.jsp"> <button class="btn btn-danger">Logout</button></a>
 </div>
 
 
